@@ -1,11 +1,11 @@
 {
-  "name": "ross-vis",
+  "name": "codes-vaca",
   "version": "0.1.0",
-  "description": "Data analytics and visualization for ROSS simulation engine.",
+  "description": "Visual analytics for CoAnalysis of CODES network simulations.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npx webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch"
   },

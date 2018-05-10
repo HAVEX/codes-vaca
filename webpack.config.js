@@ -4,8 +4,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     mode: "development",
     entry: {
-        "codes-cova": "./index.js",
-        "codes-cova.min": "./index.js"
+        "codes-vaca": "./index.js",
+        "codes-vaca.min": "./index.js"
     },
     devtool: "source-map",
     target: 'web',
